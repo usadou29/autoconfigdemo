@@ -1,0 +1,6 @@
+rootProject.name = 'autoconfigdemo'
+include 'user'
+include 'product'
+include 'command'
+include 'autoconfig-starter'
+
