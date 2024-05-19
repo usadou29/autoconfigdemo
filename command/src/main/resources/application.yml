@@ -1,2 +1,7 @@
 server:
   port: 9001
+
+com:
+  arolla:
+    datasource:
+      enabled: true
