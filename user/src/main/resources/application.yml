@@ -1,11 +1,6 @@
 server:
   port: 9000
 
-com:
-  arolla:
-    datasource:
-      enabled: true
-
 spring:
   h2:
     console:
