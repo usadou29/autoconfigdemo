@@ -1,2 +1,7 @@
 server:
   port: 9001
+com:
+  arolla:
+    logservice:
+      enabled: true
+      format: "COMMAND: %s"

@@ -1,1 +1,2 @@
 com.arolla.autoconfig.CustomDataSourceAutoConfiguration
+com.arolla.autoconfig.CustomLogServiceAutoConfiguration

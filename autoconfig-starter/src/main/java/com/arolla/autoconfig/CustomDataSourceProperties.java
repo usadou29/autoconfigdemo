@@ -4,6 +4,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "com.arolla.datasource")
 public class CustomDataSourceProperties {
+    /**
+     * activate or not a custom datasource
+     */
     private boolean enabled;
     private String driverClassName = "org.h2.Driver";
     private String url = "jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE";
